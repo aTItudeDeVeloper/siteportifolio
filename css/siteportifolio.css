@@ -1,0 +1,85 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/OpenSans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+
+header{
+	width: 100%;
+	height: 150px;
+	background-color: rgba(219, 6, 6, .9);
+	z-index: 2;
+	position: relative;
+	
+}
+header .container{
+	position: relative;
+}
+header .header-blue{
+	background-color: #061170;
+	height: 40px;
+
+}
+header #logotipo{
+	position: absolute;
+	top: 7px;
+}
+
+#menu{
+	margin: 26px 0;
+}
+
+#menu li {
+	display: inline-block;
+	font-family: "OpenSans";
+	
+}
+
+#menu li.search{
+	width: 182px;
+}
+
+#menu li.search input{
+	background-color: #db0606;
+	color: #FFF;
+	border: none;
+	height: 30px;
+	line-height: 30px;
+}
+
+#menu li.search ::-webkit-input-placeholder{
+	color: #FFF;
+}
+
+#menu li.search button{
+	background: none;
+	border: none;
+	position: absolute;
+	right: 3px;
+	top: 7px;
+}
+
+#menu li.search button i{
+	font-size: 14px;
+	color: rgba(255, 255, 255, .5);
+}
+
+#menu li a {
+	color: #FFF;
+	font-size: 16px;
+	padding: 10px 25px;
+
+}
+
+#menu li.search .input-group{
+	top: 9px;
+}
+
+#banner{
+	width: 100%;
+	height: 728px;
+	position: relative;
+	background: url("../img/banner.jpg") no-repeat;
+	top: -110px;
+	background-position: 0px -100px;
+}
