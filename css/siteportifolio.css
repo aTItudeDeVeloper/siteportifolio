@@ -107,3 +107,41 @@ header #logotipo{
 	font-family: "OpenSans";
 	font-weight: bold;
 }
+
+#noticias{
+	position: relative;
+	top: -110px;
+}
+
+#noticias h2{
+	color: #061170;
+	font-family: "OpenSans-Light";
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center; 
+}
+
+#noticias hr{
+	border: #db0606 solid 2px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+#noticias .thumbnails{
+	margin-top: 20px;
+}
+
+#noticias .thumbnails h3{
+	color: #061170;
+	font-size: 18px;
+	font-family: "OpenSans";
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+#noticias .thumbnails time{
+	color: #A7A7A7;
+	font-size: 18px;
+	font-family: "OpenSans";
+
+}
