@@ -122,7 +122,7 @@ header #logotipo{
 }
 
 #noticias hr{
-	border: #db0606 solid 2px;
+	border: #db0606 solid 8px;
 	width: 200px;
 	margin: 0 auto;
 }
@@ -144,4 +144,73 @@ header #logotipo{
 	font-size: 18px;
 	font-family: "OpenSans";
 
+}
+
+#estatisticas{
+	background-color: #db0606;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+}
+
+#estatisticas p{
+	color: #A7A7A7;
+	text-transform: uppercase;
+	font-family: "OpenSans-Light";
+	font-size: 64px;
+	margin-top: 30px;
+}
+
+#estatisticas p small{
+	color: #FFF;
+	font-size: 24px;
+	display: block;
+}
+
+#call-to-action{
+	text-align: center;
+	margin-top: 105px;
+}
+
+#call-to-action h2{
+	color: #061170;
+	font-family: "OpenSans-Light";
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center; 
+}
+
+#call-to-action hr{
+	border: #db0606 solid 8px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+#call-to-action p{
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: #A7A7A7;
+}
+
+#call-to-action .btn{
+	min-width: 164px;
+    height: 44px;
+    line-height: 34px;
+}
+
+#call-to-action .btn-azul{
+	color: #FFF;
+    background-color:  #061170;
+    border-color:  #061170;
+}
+
+#call-to-action .btn-vermelho{
+	color: #FFF;
+    background-color: #db0606;
+    border-color:  #db0606;
+}
+
+#call-to-action .row-max-400{
+	margin: 0 auto;
+	max-width: 400px;
 }
