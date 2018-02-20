@@ -224,7 +224,7 @@ footer .row{
 }
 
 footer .row p{
-	line-height: 60px;
+	line-height: 23px;
 	margin-bottom: 0;
 }
 
@@ -242,16 +242,111 @@ footer .row-cinza-escuro{
 footer .pull-left{
 	font-family: "OpenSans";
 	font-size: 14px;
-	color: #666; 
+	color: #666;
+	position: relative;
+	top: -18px; 
 }
 
 footer .text-azul{
-	color:  #061170;
+	color:  #666;
 	font-family: "OpenSans";
 	font-weight: bold;
 	font-size: 14px;
+	position: relative;
+	top: -18px;
 }
 
 footer .logotipo{
 	margin-top: 14px;
+}
+
+footer .col-popular-posts,
+footer .col-links,
+footer .col-contatos{
+	margin-top: 40px;
+}
+
+footer .row-cols h4{
+	font-family: "OpenSans";
+	font-size: 16px;
+	color: #FFF;
+	padding-bottom: 17px;
+	border-bottom: #242037 1px solid;
+}
+
+footer .row-cols h5 {
+	color: #666;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+footer .row-cols time{
+	color: #FDE092;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+footer .col-links a{
+	color: #FFF;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+footer .col-links .fa{
+	margin: 0 6px;
+}
+
+footer .col-contatos address{
+	color: #666;
+	font-family: Arial;
+	font-size: 14px;
+	display: inline-flex;
+	
+}
+
+footer .col-contatos address span{
+	display: inline-block;
+}
+
+footer .col-contatos a{
+	position: relative;
+	top: -25px;
+	
+}
+
+footer .col-contatos i{
+	color: #9B9B9B;
+	font-size: 20px;
+	margin: 0 6px;
+	position: relative;
+	top: 3px;	
+}
+
+footer .col-contatos a{
+	color: #666;
+}
+
+footer .list-socials li{
+	display: inline-block;
+	margin-right: 8px;
+}
+
+footer .list-socials a{
+	position: relative;
+	top: -18px;
+	display: block;
+	border: #9B9B9B 1px solid;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 14px;
+	position: relative;
+    top: -27px;
+}
+
+footer .list-socials i{
+	font-size: 16px;
+	margin: 0px 8px;
+	top: auto;
 }
